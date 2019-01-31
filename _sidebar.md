@@ -5,3 +5,12 @@
 * **2.支付相关接口定义**
     * [2.1公众号/小程序支付](payguide/mini.md)
     * [2.2商户撤销交易](payguide/repeal.md)
+    * [2.3商户退款请求](payguide/refund.md)
+    * [2.4扫码支付-用户被扫](payguide/unactivescan.md)
+    * [2.5扫码支付-用户主扫](payguide/activescan.md)
+    * [2.6订单状态同步](payguide/apisync.md)
+    * [2.7对账文件下载](payguide/getcollatefile.md)
+    * [2.8退款订单查询](payguide/refundquery.md)
+* **3.基础能力接口定义**
+    * [3.1交易结果通知](basicability/notify.md)
+    * [3.2第三方订单查询](basicability/thirdpartyorderquery.md)
