@@ -11,9 +11,9 @@
 - 交易时序图如下
 ![](../images/2019-01-30_5c5149e79d708.png)
 
-**请求URL：** 
-`https://mofunapi.umfintech.com/in-pay-client/api/unifiedcode`
+**请求URL：**   
 
+`https://mofunapi.umfintech.com/in-pay-client/api/unifiedcode`
   
 **请求方式：**
 - POST
