@@ -27,7 +27,7 @@
 |	subMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)|30200102	|
 |	amount	|	订单金额	|	10	|	M	|	单位:分|	100|
 |	payType	|	支付类型	|	2	|	M	|WX： 微信支付 </br> AL： 支付宝支付|	WX	|
-|	openId	|	微信或支付宝用户标识	|	28	|	M	|微信上传用户openid；支付宝上传用户user_id；	|	微信openid：oUMnsvyNYu6pjDvpJzcXe3PvGXPY支付宝user_id：2088522626852000|
+|	openId	|	微信或支付宝用户标识	|	28	|	M	|微信上传用户openid；</br> 支付宝上传用户user_id；	|	微信openid：oUMnsvyNYu6pjDvpJzcXe3PvGXPY </br> 支付宝user_id：2088522626852000|
 |	appId	|	APPID	|	18	|	C	|微信及支付宝的AppId，如获取OpenID所使用的AppID非下单商户主体资质，则该字段无需上传	|	wx102e43f81031d8d6|
 |	proxyId	|	集成商ID	|	4	|	M	|	集成商唯一标识（同魔方登录账号）	|0097|
 |	apiVersion	|	版本	|	3	|	M	|传递:1.0	|1.0		|
@@ -62,12 +62,12 @@ context={
 
 
 |	字段|	名称|	长度|	必填|	说明|	示例|
-| ---- |: ---- |:----- |:----- |:---- :|----- :|
+| ---- |: ---- |:----- |:----- |:---------------- :|------------- :|
 |	retCode	|	返回码	|	8	|	M	|0000支付成功	|	0000|
 |	subMerId	|	商户号	|	8	|	M	|同原请求	|	30200102|
 |	resDate	|	响应日期	|		|	M	|格式：yyyyMMdd	|20180223	|
 |	resTime	|	响应时间	|		|	M	|格式：HHmmss	|	172344|
-|	payType	|	支付类型	|		|	M	|WX： 微信刷卡支付<br>AL: Alipay支付宝条码支付	|	WX|
+|	payType	|	支付类型	|		|	M	|WX： 微信刷卡支付</br>AL: Alipay支付宝条码支付	|	WX|
 |	openId	|	用户授权标识	|		|	M	|		|122010000151|
 |	appId	|	APPID	|		|	M	|	微信及支付宝的AppId|	2c91aa1843444d09a5a7ca811955bbe2|
 |	Memo	|	返回码描述	|		|	M	|	|	交易成功|
