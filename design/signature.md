@@ -19,7 +19,7 @@
 **举例1:**  
 调用某接口需要以下参数，接口定义的参数名顺序如下：
 
-|序号|  字段 |值（举例）|
+|序号|字段|值（举例）|
 |------| ------------ |----|
 |1|subMerId|subMerId=99960001|
 |2|payType|payType=AL|  
@@ -30,12 +30,13 @@
 按照asc排序后：
 
 |序号|  字段 |值（举例）|
-|------| ------------ |----|
+|----|----|----|
 |1|amount|amount=1234|  
 |2|partnerOrderId|partnerOrderId=HSAPI619585101312876|
 |3|payType|payType=AL|  
 |4|proxyId|proxyId=0025|   
 |5|subMerId|subMerId=99960001|
+
 那么待签名的数据就是：
 amount=1234&amp;partnerOrderId=HSAPI619585101312876&amp;payType=AL&amp;proxyId=0025&amp;subMerId=99960001
 
@@ -68,13 +69,14 @@ context = {
 
 去掉空值，按照asc排序后：
 
-|序号|  字段 |值（举例）|
-|------| ------------ |----|
+|序号|字段|值（举例）|
+|----|----|----|
 |1|amount                    |  amount=1234|  
 |2|partnerOrderId|partnerOrderId=HSAPI619585101312876|
 |3|payType                   |  payType=AL|  
 |4|proxyId                   |proxyId=0025|   
 |5|subMerId                  | subMerId=99960001   |
+
 那么待签名的数据就是：
 amount=1234&amp;partnerOrderId=HSAPI619585101312876&amp;payType=AL&amp;proxyId=0025&amp;subMerId=99960001
 
