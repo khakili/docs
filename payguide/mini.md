@@ -26,7 +26,7 @@
 |	partnerOrderId	|	商户订单号	|	32	|	M	|	商户的支付订单号|180509171323918113335	|
 |	subMerId	|	商户号	|	8	|	M	|	商户号(联动平台分配)|30200102	|
 |	amount	|	订单金额	|	10	|	M	|	单位:分|	100|
-|	payType	|	支付类型	|	2	|	M	|WX： 微信支付 AL： 支付宝支付|	WX	|
+|	payType	|	支付类型	|	2	|	M	|WX： 微信支付 </br> AL： 支付宝支付|	WX	|
 |	openId	|	微信或支付宝用户标识	|	28	|	M	|微信上传用户openid；支付宝上传用户user_id；	|	微信openid：oUMnsvyNYu6pjDvpJzcXe3PvGXPY支付宝user_id：2088522626852000|
 |	appId	|	APPID	|	18	|	C	|微信及支付宝的AppId，如获取OpenID所使用的AppID非下单商户主体资质，则该字段无需上传	|	wx102e43f81031d8d6|
 |	proxyId	|	集成商ID	|	4	|	M	|	集成商唯一标识（同魔方登录账号）	|0097|
