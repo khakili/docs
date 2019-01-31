@@ -32,9 +32,9 @@
 |	tradeState	|	交易状态	|	变长16	|	M	|TRADE_SUCCESS	|TRADE_SUCCESS 交易成功<br>TRADE_CANCEL 交易撤销<br>REFUND_SUCCESS 交易退款成功<br>详见交易状态说明	|
 |	paySeq	|	银行流水	|	变长32	|	O	|	4200000112223805095997813703|银行流水号	|
 |	accountNo	|	银行卡号	|	变长32	|	O	|	|当交易为银行卡支付时返回, 该卡号为脱敏卡号.如:621700*********0034	|
-|	**easyPaymentService**	|	**小额双免**	|		|	**O	**|	|**[Y/N] 小额双免交易**	|
-|	**cardType**	|	**银行卡类型**	|		|	**O	**|	|**00-借记卡 01-贷记卡**	|
-|	**refundPartnerOrderId**	|	**退款流水号**	|		|	**O	**|	|**在api退款时上传**	|
+|	**easyPaymentService**	|	**小额双免**	|		|**O**|	|**[Y/N] 小额双免交易**	|
+|	**cardType**	|	**银行卡类型**	|		|**O**|	|**00-借记卡 01-贷记卡**	|
+|	**refundPartnerOrderId**	|	**退款流水号**	|		|**O**|	|**在api退款时上传**	|
 |**nfcMobilePayment**|**NFC移动支付**||O||**[Y/N] NFC移动支付交易**|
 |outOrderId|第三方平台订单号|64|O|1811280200000485 同3.2第三方订单查询接口中同名字段||
 |promotionDetail|优惠信息|1024|O|[{"promotion_id":"2000000056881516050","name":"微信支付到店红包",<br>"scope":"GLOBAL","type":"COUPON","amount":6,"activity_id":"9244500",<br>"wxpay_contribute":6,"merchant_contribute":0,"other_contribute":0}]||
