@@ -1,6 +1,6 @@
-* **惠商+API接入规范说明**
-* **修改记录**
-* **全局参数说明**
+* **[惠商+API接入规范说明](explain.md)**
+* **[修改记录](modifyrecord.md)**
+* **[全局参数说明](globalparamexplain.md)**
 * **1.对外接口设计**
     * [1.1协议](design/protocol.md)
     * [1.2数字签名](design/signature.md)
