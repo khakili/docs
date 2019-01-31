@@ -7,7 +7,7 @@
 支付宝：https://docs.open.alipay.com/common/105591
 - 请通过主动调用**2.6订单状态同步**接口，配合**3.1交易结果通知**（异步回调）来保证订单状态一致性
 - 交易时序图如下
-![](https://www.showdoc.cc/server/api/common/visitfile/sign/0167ee2c2179ebac08540e90ff213f4d?showdoc=.jpg)
+![](./images/2019-01-30_5c5149e79d708.png)
 
 **请求URL：** 
 `https://mofunapi.umfintech.com/in-pay-client/api/unifiedcode`
