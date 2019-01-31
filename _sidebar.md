@@ -14,3 +14,5 @@
 * **3.基础能力接口定义**
     * [3.1交易结果通知](basicability/notify.md)
     * [3.2第三方订单查询](basicability/thirdpartyorderquery.md)
+* **4.其他**
+    * [4.1接入常见问题说明](others/qa.md)
