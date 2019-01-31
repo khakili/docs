@@ -25,7 +25,7 @@
 |2|payType|payType=AL|  
 |3|proxyId|proxyId=0025|   
 |4|amount|amount=1234|  
-|5|partnerOrderId|partnerOrderId=HSAPI619585101312876|
+|5|partnerOrderId|partnerOrderId=HSAPI619585101312876||
 
 按照asc排序后：
 
@@ -35,7 +35,7 @@
 |2|partnerOrderId|partnerOrderId=HSAPI619585101312876|
 |3|payType|payType=AL|  
 |4|proxyId|proxyId=0025|   
-|5|subMerId|subMerId=99960001|
+|5|subMerId|subMerId=99960001||
 
 那么待签名的数据就是：
 amount=1234&amp;partnerOrderId=HSAPI619585101312876&amp;payType=AL&amp;proxyId=0025&amp;subMerId=99960001
@@ -65,7 +65,7 @@ context = {
 |3|proxyId|proxyId=0025|   
 |4|amount|amount=1234|  
 |5|partnerOrderId|partnerOrderId=HSAPI619585101312876|
-|6|shopId|shopId="" <span style="color:red">（空值）</span>|
+|6|shopId|shopId="" <span style="color:red">（空值）</span>||
 
 去掉空值，按照asc排序后：
 
@@ -75,7 +75,7 @@ context = {
 |2|partnerOrderId|partnerOrderId=HSAPI619585101312876|
 |3|payType                   |  payType=AL|  
 |4|proxyId                   |proxyId=0025|   
-|5|subMerId                  | subMerId=99960001   |
+|5|subMerId                  | subMerId=99960001   ||
 
 那么待签名的数据就是：
 amount=1234&amp;partnerOrderId=HSAPI619585101312876&amp;payType=AL&amp;proxyId=0025&amp;subMerId=99960001
