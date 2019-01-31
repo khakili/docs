@@ -1,9 +1,9 @@
 # 签名验证（java）
-# 签名函数
+## 签名函数
 
 java建议使用版本： signUtil.20170115.v2.1.jar
 
-```dart
+```java
 public static String signAndRelativePath(String dataString, String charset, String keyPath) throws SignEncException
 ```
 
@@ -19,7 +19,7 @@ SignEncException：为Exception的子类，表示签名失败，调用方法需�
 
 - 备注： 如果证书在应用的根目录下要用   /证书名。jar可以反编译，有注释。jar里带源码。
 
-# 签名包signUtilv2.1.jar使用说明
+## 签名包signUtilv2.1.jar使用说明
 
 Jar包中包含三个文件：
 

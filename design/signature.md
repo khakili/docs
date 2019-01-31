@@ -16,26 +16,26 @@
 
 4.JAVA签名方式，详见1.3小节。
 
-** 举例1：**
+**举例1:**  
 调用某接口需要以下参数，接口定义的参数名顺序如下：
 
 |序号|  字段 |值（举例）|
 |------| ------------ |----|
-|1|subMerId                  | subMerId=99960001   |
-|2|payType                   |  payType=AL|  
-|3|proxyId                   |proxyId=0025|   
-|4|amount                    |  amount=1234|  
+|1|subMerId|subMerId=99960001|
+|2|payType|payType=AL|  
+|3|proxyId|proxyId=0025|   
+|4|amount|amount=1234|  
 |5|partnerOrderId|partnerOrderId=HSAPI619585101312876|
 
 按照asc排序后：
 
 |序号|  字段 |值（举例）|
 |------| ------------ |----|
-|1|amount                    |  amount=1234|  
+|1|amount|amount=1234|  
 |2|partnerOrderId|partnerOrderId=HSAPI619585101312876|
-|3|payType                   |  payType=AL|  
-|4|proxyId                   |proxyId=0025|   
-|5|subMerId                  | subMerId=99960001   |
+|3|payType|payType=AL|  
+|4|proxyId|proxyId=0025|   
+|5|subMerId|subMerId=99960001|
 那么待签名的数据就是：
 amount=1234&amp;partnerOrderId=HSAPI619585101312876&amp;payType=AL&amp;proxyId=0025&amp;subMerId=99960001
 
@@ -54,15 +54,15 @@ context = {
 }
 ```
 
-** 举例2：**
+**举例2:**  
 调用某接口需要以下参数，接口定义的参数名顺序如下：
 
 |序号|  字段 |值（举例）|
-|------| ------------ |----|
-|1|subMerId                  | subMerId=99960001   |
-|2|payType                   |  payType=AL|  
-|3|proxyId                   |proxyId=0025|   
-|4|amount                    |  amount=1234|  
+|----|----|----|
+|1|subMerId|subMerId=99960001|
+|2|payType|payType=AL|  
+|3|proxyId|proxyId=0025|   
+|4|amount|amount=1234|  
 |5|partnerOrderId|partnerOrderId=HSAPI619585101312876|
 |6|shopId|shopId="" <span style="color:red">（空值）</span>|
 
@@ -121,7 +121,7 @@ context = {
 接口定义的参数名顺序如下：
 
 | 序号  |   字段|值（举例）|
-| ------------ | ------------ |
+|----|----|----|
 | 1  |  Memo |  退款成功   |
 | 2  |  retCode | 0000 |
 
@@ -129,7 +129,7 @@ context = {
 按照asc排序
 
 | 序号  |   字段|值（举例）|
-| ------------ | ------------ |
+|----|----|----|
 | 1  |  retCode | 0000 |
 | 2  |  Memo |  退款成功   |
 
@@ -155,7 +155,7 @@ context = {
 接口定义的参数名顺序如下：
 
 | 序号  |   字段|值（举例）|
-| ------------ | ------------ |
+| ---- | ---- | ---- |
 | 1  |  Memo |  退款成功   |
 | 2  |  retCode | 0000 |
 | 3  |  amount | "" <span style="color:red">（空值）</span> |
@@ -164,7 +164,7 @@ context = {
 去掉空值，并按照asc排序
 
 | 序号  |   字段|值（举例）|
-| ------------ | ------------ |
+| ---- | ---- | ---- |
 | 1  |  retCode | 0000 |
 | 2  |  Memo |  退款成功   |
 
