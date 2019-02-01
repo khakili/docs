@@ -33,8 +33,8 @@
 
  **商户请求报文示例**
 
-```json5 
-context = {
+```java
+context={
 	"amount": "1",
 	"tradeNo": "1801534000007443",
 	"orderId": "180116194213097N7NL00056778",

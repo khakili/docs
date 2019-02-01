@@ -33,8 +33,8 @@
 
  **商户请求报文示例**
 
-``` 
-context = {
+```java 
+context={
 	"subMerId": "30000102",
 	"amount": "1",
 	"payType": "WX",
