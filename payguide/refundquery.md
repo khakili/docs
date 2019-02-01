@@ -28,7 +28,7 @@
 
  **商户请求报文示例**
 
-```java 
+```json
 context="{\"applicationAppId\":\"\",\"applicationSign\":\"\",\"funCode\":\"THQUERY\",\"operator\":\"\",\"orderDate\":\"20180913\",\"packageName\":\"\",\"partnerOrderId\":\"1809131019330032\",\"payType\":\"\",\"posSN\":\"\",\"proxyId\":\"***\",\"refundDate\":\"20180913\",\"refundPartnerOrderId\":\"20180913101318\",\"reqDate\":\"20181015\",\"reqTime\":\"175001\",\"shopNo\":\"\",\"sign\":\"aMz2kOtP6knlEkfMqo4NPG1IC44S7rZRxs9t1m3axLW+5W4YvwiQKd043hDppwLtS0BESHuIgNgPUqWsTebiYTDyoirJNgjPpX9P1Ua2joXfa/aqjqL82G5EKHFvOfxFlDg7NOjE8/dtpW4eiqoJaxnkaRhcH+wFlbfUKQBcYY8=\",\"subMerId\":\"30029272\"}"
 ```
 

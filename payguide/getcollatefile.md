@@ -38,8 +38,8 @@
 
  **商户请求报文示例**
 
-```java
-context = {
+```json
+context={
 "sign":"SEvC7jXqVYL3/3QVwiK764Jg1wOasdfdazAdrMPxTpmLYhtkNNV42yCA/1AnMS4+PGmg2ksn+rzC2E6hKXlg/NpfHfCGTLSpasdasdasmdggYuCc8Q2Mn1uBhxJaJBof/AkrGMMskCHpE+asdfa3S6NlYI8PpC3g658Q=",
 "stlDate":"20180809",
 "merId":"0012"

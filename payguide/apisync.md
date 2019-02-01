@@ -30,7 +30,7 @@
 
  **YmfPay商户请求报文示例**
 
-```java
+```json
 context={
 	"subMerId": "30000102",
 	"payType": "WX",
@@ -43,7 +43,7 @@ context={
 }
 ```
  **非YmfPay商户请求报文示例**
-```java
+```json
 context={
 	"subMerId": "30000102",
 	"payType": "WX",
