@@ -1,6 +1,3 @@
-* **[惠商+API接入规范说明](explain.md)**
-* **[修改记录](modifyrecord.md)**
-* **[全局参数说明](globalparamexplain.md)**
 * **1.对外接口设计**
     * [1.1协议](design/protocol.md)
     * [1.2数字签名](design/signature.md)
@@ -19,3 +16,4 @@
     * [3.2第三方订单查询](basicability/thirdpartyorderquery.md)
 * **4.其他**
     * [4.1接入常见问题说明](others/qa.md)
+    * [4.2全局参数说明](globalparamexplain.md)
